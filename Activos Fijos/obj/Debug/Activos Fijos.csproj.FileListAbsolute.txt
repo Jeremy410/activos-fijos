@@ -1,0 +1,15 @@
+c:\users\jeremy lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\bin\Debug\Activos Fijos.exe.config
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\bin\Debug\Activos Fijos.exe
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\bin\Debug\Activos Fijos.pdb
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos Fijos.csprojResolveAssemblyReference.cache
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.Properties.Resources.resources
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos Fijos.csproj.GenerateResource.Cache
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos Fijos.exe
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos Fijos.pdb
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.frmMantenimientoDepartamentos.resources
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.frmMantenimientoEmpleados.resources
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.frmPrincipal.resources
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.frmMantenimientoTipoActivos.resources
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.frmMantenimientoUbicaciones.resources
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.frmMantenimientoActivosFijos.resources
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.frmMantenimientoCalculoDepreciaciones.resources
