@@ -29,8 +29,8 @@ public class CalendarCell : DataGridViewTextBoxCell
             val = this.Value;
         }
         catch (Exception ex)
-        {   
-            return;
+        {
+            Console.WriteLine(ex.StackTrace);
         }
         
         if (val != System.DBNull.Value)

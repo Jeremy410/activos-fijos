@@ -44,14 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activos_FijosDataSet1.cs">
-      <DependentUpon>Activos_FijosDataSet1.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Activos_FijosDataSet1.Designer.cs">
+    <Compile Include="ActivosFijosDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Activos_FijosDataSet1.xsd</DependentUpon>
+      <DependentUpon>ActivosFijosDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="CalendarCell.cs" />
     <Compile Include="CalendarColumn.cs" />
@@ -61,70 +57,151 @@
     <Compile Include="DatePicker.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="frmMantenimientoActivosFijos.cs">
+    <Compile Include="Mantenimientos\frmMantActivosFijos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMantenimientoActivosFijos.Designer.cs">
-      <DependentUpon>frmMantenimientoActivosFijos.cs</DependentUpon>
+    <Compile Include="Mantenimientos\frmMantActivosFijos.Designer.cs">
+      <DependentUpon>frmMantActivosFijos.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMantenimientoCalculoDepreciaciones.cs">
+    <Compile Include="Mantenimientos\frmMantDepartamentos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMantenimientoCalculoDepreciaciones.Designer.cs">
-      <DependentUpon>frmMantenimientoCalculoDepreciaciones.cs</DependentUpon>
+    <Compile Include="Mantenimientos\frmMantDepartamentos.Designer.cs">
+      <DependentUpon>frmMantDepartamentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMantenimientoEmpleados.cs">
+    <Compile Include="Mantenimientos\frmMantCalculoDepreciacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMantenimientoEmpleados.Designer.cs">
-      <DependentUpon>frmMantenimientoEmpleados.cs</DependentUpon>
+    <Compile Include="Mantenimientos\frmMantCalculoDepreciacion.Designer.cs">
+      <DependentUpon>frmMantCalculoDepreciacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPrincipal.cs">
+    <Compile Include="Mantenimientos\frmMantEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPrincipal.Designer.cs">
+    <Compile Include="Mantenimientos\frmMantEmpleados.Designer.cs">
+      <DependentUpon>frmMantEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantMetodoDepreciacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantMetodoDepreciacion.Designer.cs">
+      <DependentUpon>frmMantMetodoDepreciacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantModulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantModulos.Designer.cs">
+      <DependentUpon>frmMantModulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantOpcionesMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantOpcionesMenu.Designer.cs">
+      <DependentUpon>frmMantOpcionesMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantOpcionesPorRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantOpcionesPorRoles.Designer.cs">
+      <DependentUpon>frmMantOpcionesPorRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantProveedores.Designer.cs">
+      <DependentUpon>frmMantProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantRoles.Designer.cs">
+      <DependentUpon>frmMantRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantTipoPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantTipoPersona.Designer.cs">
+      <DependentUpon>frmMantTipoPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantTiposActivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantTiposActivos.Designer.cs">
+      <DependentUpon>frmMantTiposActivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantTiposPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantTiposPagos.Designer.cs">
+      <DependentUpon>frmMantTiposPagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmMantUsuarios.Designer.cs">
+      <DependentUpon>frmMantUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMantenimientoDepartamentos.cs">
+    <Compile Include="Mantenimientos\frmMantUbicaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMantenimientoDepartamentos.Designer.cs">
-      <DependentUpon>frmMantenimientoDepartamentos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMantenimientoTipoActivos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMantenimientoTipoActivos.Designer.cs">
-      <DependentUpon>frmMantenimientoTipoActivos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMantenimientoUbicaciones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMantenimientoUbicaciones.Designer.cs">
-      <DependentUpon>frmMantenimientoUbicaciones.cs</DependentUpon>
+    <Compile Include="Mantenimientos\frmMantUbicaciones.Designer.cs">
+      <DependentUpon>frmMantUbicaciones.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmMantenimientoActivosFijos.resx">
-      <DependentUpon>frmMantenimientoActivosFijos.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimientos\frmMantActivosFijos.resx">
+      <DependentUpon>frmMantActivosFijos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMantenimientoCalculoDepreciaciones.resx">
-      <DependentUpon>frmMantenimientoCalculoDepreciaciones.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimientos\frmMantDepartamentos.resx">
+      <DependentUpon>frmMantDepartamentos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMantenimientoEmpleados.resx">
-      <DependentUpon>frmMantenimientoEmpleados.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimientos\frmMantCalculoDepreciacion.resx">
+      <DependentUpon>frmMantCalculoDepreciacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPrincipal.resx">
+    <EmbeddedResource Include="Mantenimientos\frmMantEmpleados.resx">
+      <DependentUpon>frmMantEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantMetodoDepreciacion.resx">
+      <DependentUpon>frmMantMetodoDepreciacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantModulos.resx">
+      <DependentUpon>frmMantModulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantOpcionesMenu.resx">
+      <DependentUpon>frmMantOpcionesMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantOpcionesPorRoles.resx">
+      <DependentUpon>frmMantOpcionesPorRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantProveedores.resx">
+      <DependentUpon>frmMantProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantRoles.resx">
+      <DependentUpon>frmMantRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantTipoPersona.resx">
+      <DependentUpon>frmMantTipoPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantTiposActivos.resx">
+      <DependentUpon>frmMantTiposActivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantTiposPagos.resx">
+      <DependentUpon>frmMantTiposPagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmMantUsuarios.resx">
+      <DependentUpon>frmMantUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMantenimientoDepartamentos.resx">
-      <DependentUpon>frmMantenimientoDepartamentos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMantenimientoTipoActivos.resx">
-      <DependentUpon>frmMantenimientoTipoActivos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMantenimientoUbicaciones.resx">
-      <DependentUpon>frmMantenimientoUbicaciones.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimientos\frmMantUbicaciones.resx">
+      <DependentUpon>frmMantUbicaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -135,16 +212,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Activos_FijosDataSet1.xsc">
-      <DependentUpon>Activos_FijosDataSet1.xsd</DependentUpon>
+    <None Include="ActivosFijosDataSet.xsc">
+      <DependentUpon>ActivosFijosDataSet.xsd</DependentUpon>
     </None>
-    <None Include="Activos_FijosDataSet1.xsd">
+    <None Include="ActivosFijosDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Activos_FijosDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>ActivosFijosDataSet1.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Activos_FijosDataSet1.xss">
-      <DependentUpon>Activos_FijosDataSet1.xsd</DependentUpon>
+    <None Include="ActivosFijosDataSet.xss">
+      <DependentUpon>ActivosFijosDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

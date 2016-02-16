@@ -26,7 +26,7 @@ namespace Activos_Fijos.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=JEREMY410;Initial Catalog=\"Activos Fijos\";User ID=sa;Password=hola")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=JEREMY410;Initial Catalog=ActivosFijos;User ID=sa;Password=hola")]
         public string Activos_FijosConnectionString {
             get {
                 return ((string)(this["Activos_FijosConnectionString"]));
