@@ -21,3 +21,5 @@ C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activo
 C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.frmMantModulos.resources
 C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.frmMantOpcionesMenu.resources
 C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\obj\Debug\Activos_Fijos.Mantenimientos.frmMantOpcionesPorRoles.resources
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\bin\Debug\Activos Fijos.exe.CodeAnalysisLog.xml
+C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\bin\Debug\Activos Fijos.exe.lastcodeanalysissucceeded

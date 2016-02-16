@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="C:\Users\Jeremy Lopez\documents\visual studio 2013\Projects\Activos Fijos\Activos Fijos\bin\Debug\Activos Fijos.exe">
+   <Modules>
+    <Module Name="activos fijos.exe">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="DatePicker" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Value" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_Value(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="DoNotHideBaseClassMethods" Category="Microsoft.Design" CheckId="CA1061" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="Breaking">
+               <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Jeremy Lopez\Documents\Visual Studio 2013\Projects\Activos Fijos\Activos Fijos" File="DatePicker.cs" Line="71">Change or remove 'DatePicker.Value.set(object)' because it hides a more specific base class method: 'DateTimePicker.Value.set(DateTime)'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Activos_Fijos">
+       <Types>
+        <Type Name="ActivosFijosDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+ActivosFijosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.ActivosFijosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+CalculoDepreciacionDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.CalculoDepreciacionDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+DepartamentosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.DepartamentosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+EmpleadosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.EmpleadosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+MetodoDepreciacionDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.MetodoDepreciacionDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+ModulosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.ModulosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+OpcionesMenuDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.OpcionesMenuDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+OpcionesXRolesDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.OpcionesXRolesDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+ProveedoresDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.ProveedoresDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+RolesDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.RolesDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+TipoPagosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.TipoPagosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+TipoPersonasDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.TipoPersonasDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+TiposActivosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.TiposActivosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+UbicacionesDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.UbicacionesDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ActivosFijosDataSet+UsuariosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2016-02-16 02:46:42Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ActivosFijosDataSet.UsuariosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DoNotHideBaseClassMethods" Category="Microsoft.Design" CheckId="CA1061">
+   <Name>Do not hide base class methods</Name>
+   <Description>Defining a method in a derived class with the same name and parameters that are more weakly typed as one that is defined in the base class will obstruct access to the method defined in the base class.</Description>
+   <Resolution Name="Default">Change or remove {0} because it hides a more specific base class method: {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182143.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>Implement ISerializable correctly</Name>
+   <Description>If a type is assignable to ISerializable, it should implement GetObjectData. For unsealed types, the GetObjectData method should be callable and overridable by derived types.</Description>
+   <Resolution Name="Default">Add an implementation of GetObjectData to type {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

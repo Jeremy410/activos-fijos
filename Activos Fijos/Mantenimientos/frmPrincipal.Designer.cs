@@ -147,7 +147,7 @@
             // 
             this.tiposDePagosToolStripMenuItem.Name = "tiposDePagosToolStripMenuItem";
             this.tiposDePagosToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
-            this.tiposDePagosToolStripMenuItem.Text = "Tipos de Pagos";
+            this.tiposDePagosToolStripMenuItem.Text = "Tipos de Pagos ";
             this.tiposDePagosToolStripMenuItem.Click += new System.EventHandler(this.tiposDePagosToolStripMenuItem_Click);
             // 
             // rolesToolStripMenuItem
